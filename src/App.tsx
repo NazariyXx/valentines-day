@@ -48,7 +48,7 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
-            <h1 className="title">Привіт, сонце!</h1>
+            <h1 className="title">Привіт, принцеса!</h1>
             <h2 className="question">Будеш моєю Валентинкою?</h2>
             <div className="btns-container">
               <button onClick={handleNoClick} className="no-button">
