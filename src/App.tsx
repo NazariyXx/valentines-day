@@ -50,7 +50,7 @@ export default function Page() {
             />
             <h1 className="title">Привіт, сонце!</h1>
             <h2 className="question">Будеш моєю Валентинкою?</h2>
-            <div>
+            <div className="btns-container">
               <button
                 className={"yes-button"}
                 style={{ fontSize: yesButtonSize }}
