@@ -51,16 +51,16 @@ export default function Page() {
             <h1 className="title">Привіт, сонце!</h1>
             <h2 className="question">Будеш моєю Валентинкою?</h2>
             <div className="btns-container">
+              <button onClick={handleNoClick} className="no-button">
+                {noCount === 0 ? "Ні" : getNoButtonText()}
+              </button>
+
               <button
                 className={"yes-button"}
                 style={{ fontSize: yesButtonSize }}
                 onClick={() => setYesPressed(true)}
               >
                 Так
-              </button>
-
-              <button onClick={handleNoClick} className="no-button">
-                {noCount === 0 ? "Ні" : getNoButtonText()}
               </button>
             </div>
           </>
